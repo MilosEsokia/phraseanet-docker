@@ -1,3 +1,3 @@
 FROM mariadb
 
-ADD ./docker/ /
+COPY init.d /docker-entrypoint-initdb.d
